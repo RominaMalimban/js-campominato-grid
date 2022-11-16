@@ -29,7 +29,7 @@ for (let i = 1; i <= 100; i++){
     // devo creare una funzione in cui al click sul quadrato, questo si colora:
     element.addEventListener("click",
         function(){
-            element.classList.add("clicked-box");
+            element.classList.toggle("clicked-box");
             console.log(i);
         }
         
