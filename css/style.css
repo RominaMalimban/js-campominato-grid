@@ -15,8 +15,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    border: 1px solid #000;
 }
 
 #logo {
@@ -36,6 +34,7 @@ button{
 main{
     background-color: #7fffd4;
     padding: 50px 0;
+    display: none;
 }
 
 .container{
@@ -51,12 +50,15 @@ main{
     text-align: center;
     line-height: 70px;
     border: 1px solid #000;
+    background-color: #fff;
 }
 
 
 /* regole footer */
 footer{
     padding: 20px;
-    /* debug */
-    border: 1px solid #000;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
