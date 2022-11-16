@@ -54,6 +54,9 @@ main{
     background-color: #fff;
 }
 
+.clicked-box{
+    background-color:  #7fffd4;
+}
 
 /* regole footer */
 footer{
